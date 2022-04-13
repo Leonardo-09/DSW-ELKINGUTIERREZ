@@ -1,0 +1,113 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0%;
+   
+
+}
+header{
+    display: flex;
+    min-height: 70px;
+    color: #EEEEEE;
+    background-color: #FF5F00;      
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+     }
+     nav ul{
+        list-style: none;
+        display: block;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-right: 10;
+            }
+        nav li a{
+            display: flex;
+            flex-direction: column; 
+            padding: 10px 20px;      
+               }
+               nav a:hover{
+                color: white;
+                }
+                nav a{
+                font-weight: 600;
+                padding-right: 30px;
+                background-color: #f75e59;
+                display: flex;
+                padding: 12px 20px;
+                justify-content: space-around;         
+            }          
+            
+            .menu > li{
+                display: inline-block;
+             
+            }
+            a:hover{
+                background-color: #808080;
+                transition: all .3s;
+            }
+            .menu > li > a{
+                display: block;
+                padding: 15px 20px;
+                color: rgb(255, 255, 255);
+            }        
+            .submenu{
+                position: absolute;
+            
+                width: 120px; 
+                display: none;
+            }
+            .submenu li a{
+                display: block;
+                padding: 15px;
+                color: rgb(255, 255, 255);
+                text-decoration: none;
+               }
+               .menu li:hover .submenu{
+                display: block;
+                transition: all .5s;
+               }
+  .logo{
+      display: flex;
+      align-items: center;
+  }
+.logo img{ 
+    height: 70px;
+    margin-right: 20px;
+}     
+header{
+    flex-direction: column;
+}
+        section{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+        }
+    article{
+        background-color: #00092C;
+        grid-column: 1/4;
+       color: #ffffff;
+       
+        }
+       .article img {
+        height: 20px;
+        padding: 50px 250px;
+            }
+        
+        aside{
+            background-color: #EEEEEE;
+            padding: 30px;
+            grid-column: 4/5;        
+} 
+footer{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    padding: 30px;
+    }
+
+
+
+
+            
+    
